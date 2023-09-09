@@ -1,5 +1,5 @@
 import Image from "next/image"
-import works from "@/public/brainz.jpg"
+import works from "@/public/Images/brainz.jpg"
 const Works = () => {
   return (
     <main>

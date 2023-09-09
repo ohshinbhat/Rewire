@@ -9,8 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'homebg': "url('/bg.jpg')",
-        'homebg2': "url('/homebg.jpg')"
+        'homebg': "url('/Images/bg.jpg')",
+        'homebg2': "url('/Images/homebg.jpg')"
+      },
+      fontSize: {
+        sm: '1.25rem',
+        base: '1.5rem',
+        lg: '2.5rem',
+        xl: '3rem',
+      },
+      colors: {
+        'r-blue': '#000da1',
       },
     },
   },
