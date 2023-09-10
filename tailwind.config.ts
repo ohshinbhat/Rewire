@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'homebg': "url('/Images/bg.jpg')",
-        'homebg2': "url('/Images/homebg.jpg')"
+        'homebg2': "url('/Images/homebg.jpg')",
+        'homebg3': "url('/Images/bg3.png')",
       },
       fontSize: {
         sm: '1.25rem',

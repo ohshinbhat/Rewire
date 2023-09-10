@@ -6,7 +6,7 @@ import Image from "next/image"
 const Testimonials = () => {
   return (
     <>
-        <main className="min-h-screen flex flex-col gap-[50px]">
+        <main className="min-h-screen flex flex-col gap-[50px] overflow-hidden">
             <div className="flex flex-col gap-2">
                 <div className="text-lg mx-[100px] font-bold text-r-blue">Don’t take our word for it.
 

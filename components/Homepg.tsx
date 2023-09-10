@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const Homepg = () => {
   return (
-    <main className="min-h-screen min-w-screen bg-homebg2 bg-opacity-100 bg-cover bg-center">
-        <div>
+    <main className="bg-black min-h-screen min-w-screen">
+        <div className='min-h-screen min-w-screen bg-homebg3 bg-cover bg-center'>
             <nav className="flex flex-row justify-between items-center text-white min-w-screen mx-[100px]">
 
                 <div className="flex flex-row items-center gap-2 font-medium mt-[30px]">

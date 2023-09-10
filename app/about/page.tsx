@@ -1,7 +1,12 @@
-
+import Footer from "@/components/Footer"
 const About = () => {
   return (
-    <div>page</div>
+    <>  
+      <main>
+        about
+        <Footer />
+      </main>
+    </>
   )
 }
 
