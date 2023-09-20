@@ -18,19 +18,19 @@ const Blogs = () => {
             <div className="text-base text-left pl-5 text-r-blue font-light">We’re not just an app, we’re a community of curious minds that’s always ready to help each other.</div>
           </div>
           <div className="grid grid-cols-3 items-center">
-            <Link href='/The-Role-of-Brain-Training-in-Enhancing-Cognitive-Abilities' className="flex flex-col gap-4 items-center">
+            <Link href='./blogs/The-Role-of-Brain-Training-in-Enhancing-Cognitive-Abilities' className="flex flex-col gap-4 items-center">
               <div>
                 <Image src={blog1} alt="blog1" />
               </div>
               <div className="font-bold px-4 text-base text-center">The Role of Brain Training in Enhancing Cognitive Abilities</div>
             </Link>
-            <Link href='Exploring-the-Link-Between-Mental-Exercise-and-Cognitive-Function' className="flex flex-col gap-4 items-center">
+            <Link href='./blogs/Exploring-the-Link-Between-Mental-Exercise-and-Cognitive-Function' className="flex flex-col gap-4 items-center">
               <div>
                 <Image src={blog2} alt="blog1" />
               </div>
               <div className="font-bold px-4 text-base text-center">Exploring the Link Between Mental Exercise and Cognitive Function</div>
             </Link>
-            <Link href='/Understanding-the-Impact-of-Stress-on-Brain-Development' className="flex flex-col gap-4 items-center">
+            <Link href='./blogs/Understanding-the-Impact-of-Stress-on-Brain-Development' className="flex flex-col gap-4 items-center">
               <div>
                 <Image src={blog3} alt="blog1" />
               </div>
