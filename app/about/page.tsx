@@ -13,8 +13,6 @@ const About = () => {
       <main>
         <Navbar />
         <div className="px-[100px] flex flex-col gap-[50px] mb-[100px]">
-          <div className="text-[4rem] font-black text-center mt-10 border-b-[1px] border-r-blue text-r-blue pb-3">About Us</div>
-
           <div className="flex flex-row items-center">
             <div className="flex flex-col gap-7 flex-[50%] pl-[50px]">
               <div className="text-r-blue font-bold text-lg ">20 minutes of your brain time</div>

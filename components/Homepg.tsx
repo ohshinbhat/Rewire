@@ -10,7 +10,7 @@ const Homepg = () => {
 
                 <div className="flex flex-row items-center gap-2 font-medium mt-[30px]">
                     <Image src={logo} alt="Rewire logo" className="w-max cursor-pointer" />
-                    <div className='text-base font-medium'>Rewire</div>
+                    <Link href='/' className='text-base font-medium'>Rewire</Link>
                 </div>
                 <div className='flex flex-row items-center gap-12 text-white mt-[30px] text-sm font-medium'>
                     <Link href='/about'>About Rewire</Link>

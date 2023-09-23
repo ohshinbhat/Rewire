@@ -11,7 +11,7 @@ const Testimonials = () => {
                 <div className="text-lg mx-[100px] font-bold text-r-blue">Don’t take our word for it.
 
                 </div>
-                <div className="text-base mx-[100px] font-medium text-r-blue">Here’s what our users are saying:
+                <div className="text-base mx-[100px] font-medium text-r-blue">Here’s what our users are saying.
 
                 </div>
             </div>

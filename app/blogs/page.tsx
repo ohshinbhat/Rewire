@@ -12,7 +12,6 @@ const Blogs = () => {
       <main>
         <Navbar />
         <div className="px-[100px] flex flex-col gap-[50px] mb-[100px]">
-          <div className="text-[4rem] font-black text-center mt-10 border-b-[1px] border-r-blue text-r-blue pb-3">Blogs</div>
           <div className="flex flex-col">
             <div className="text-xl font-bold text-left pl-5 text-r-blue">Learn everything about your cognitive health, one blog at a time.</div>
             <div className="text-base text-left pl-5 text-r-blue font-light">We’re not just an app, we’re a community of curious minds that’s always ready to help each other.</div>
@@ -22,19 +21,19 @@ const Blogs = () => {
               <div>
                 <Image src={blog1} alt="blog1" />
               </div>
-              <div className="font-bold px-4 text-base text-center">The Role of Brain Training in Enhancing Cognitive Abilities</div>
+              <div className="font-bold px-10 text-base text-center">The Role of Brain Training in Enhancing Cognitive Abilities</div>
             </Link>
             <Link href='./blogs/Exploring-the-Link-Between-Mental-Exercise-and-Cognitive-Function' className="flex flex-col gap-4 items-center">
               <div>
                 <Image src={blog2} alt="blog1" />
               </div>
-              <div className="font-bold px-4 text-base text-center">Exploring the Link Between Mental Exercise and Cognitive Function</div>
+              <div className="font-bold px-12 text-base text-center">Exploring the Link Between Mental Exercise and Cognitive Function</div>
             </Link>
             <Link href='./blogs/Understanding-the-Impact-of-Stress-on-Brain-Development' className="flex flex-col gap-4 items-center">
               <div>
                 <Image src={blog3} alt="blog1" />
               </div>
-              <div className="font-bold px-4 text-base text-center">Understanding the Impact of Stress on Brain Development</div>
+              <div className="font-bold px-10 text-base text-center">Understanding the Impact of Stress on Brain Development</div>
             </Link>
 
 
