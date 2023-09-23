@@ -27,8 +27,8 @@ const About = () => {
               <div className="flex flex-col gap-7 pr-[50px]">
                 <div className="text-r-blue font-bold text-lg text-left ">Our Mission </div>
                 <span className="text-black font-medium text-base">At Rewire, our mission is clear: to help everyone improve their cognitive abilities and empower those with learning disabilities to develop unbreakable mental resilience. </span>
-                <span className="text-black font-medium text-base">We're committed to transforming the lives of individuals by providing personalized brain training exercises that foster improved cognitive function, self-confidence, and lifelong learning.</span>
-                <span className="text-black font-medium text-base">With our pioneering app, we're giving countless individuals the tools to triumph over cognitive challenges. Our app offers a range of engaging exercises tailored to different cognitive skills, equipping users to excel and thrive.</span>
+                <span className="text-black font-medium text-base">We&apos;re committed to transforming the lives of individuals by providing personalized brain training exercises that foster improved cognitive function, self-confidence, and lifelong learning.</span>
+                <span className="text-black font-medium text-base">With our pioneering app, we&apos;re giving countless individuals the tools to triumph over cognitive challenges. Our app offers a range of engaging exercises tailored to different cognitive skills, equipping users to excel and thrive.</span>
               </div>
             </div>
           </div>

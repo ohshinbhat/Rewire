@@ -34,7 +34,7 @@ const page = () => {
             </section>
             <section>
               <div className="text-base font-bold text-r-blue">The Science Behind Cognitive Training</div>
-              <div>Cognitive training is a type of brain exercise that involves challenging the brain with a diverse set of mentally stimulating tasks. Research suggests that training cognitive skills can improve brain function. The key to successful cognitive training lies in understanding how the brain works. When neural networks are strengthened, cognitive function can be improved. In other words, the more you train your brain, the more you're strengthening the brain functions associated with working memory, sustained attention, clear communication, processing speed, and mental math.</div>
+              <div>Cognitive training is a type of brain exercise that involves challenging the brain with a diverse set of mentally stimulating tasks. Research suggests that training cognitive skills can improve brain function. The key to successful cognitive training lies in understanding how the brain works. When neural networks are strengthened, cognitive function can be improved. In other words, the more you train your brain, the more you&apos;re strengthening the brain functions associated with working memory, sustained attention, clear communication, processing speed, and mental math.</div>
             </section>
             <section>
               <div className="text-base font-bold text-r-blue">The Benefits of Brain Games for Cognitive Training</div>
@@ -42,7 +42,7 @@ const page = () => {
             </section>
             <section>
               <div className="text-base font-bold text-r-blue">Cognitive Training for Personal and Professional Growth</div>
-              <div>Cognitive training isn't just for boosting brain power. It can also be used to reach personal and professional goals. For students, cognitive training can improve academic performance, helping them to better understand and retain information. It can also help with test-taking skills, such as problem-solving, short-term memory recall, processing speed, and multitasking. For professionals, cognitive training can help improve communication, decision-making, and problem-solving skills, giving them a competitive edge in the workplace.</div>
+              <div>Cognitive training isn&apos;t just for boosting brain power. It can also be used to reach personal and professional goals. For students, cognitive training can improve academic performance, helping them to better understand and retain information. It can also help with test-taking skills, such as problem-solving, short-term memory recall, processing speed, and multitasking. For professionals, cognitive training can help improve communication, decision-making, and problem-solving skills, giving them a competitive edge in the workplace.</div>
             </section>
             <section>
               <div className="text-base font-bold text-r-blue">The Role of Brain Training Games in Enhancing Cognitive Abilities</div>

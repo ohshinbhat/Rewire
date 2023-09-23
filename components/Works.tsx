@@ -10,7 +10,7 @@ const Works = () => {
                 <p className="text-[#000da1] flex flex-col font-medium text-base">
                     <span className="mt-[15px] ">Rewire&apos;s team of psychologists know that everyone&apos;s different, and not all of us can afford to sit for hours a day playing games. <br /></span>
                     <span className="mt-[15px]">So we came up with a system that takes <span className='font-bold'>only 20 minutes a day.</span> <br /></span>
-                    <span className="mt-[15px]">Our carefully crafted games target key areas such as memory, attention, problem-solving, and more. By consistently challenging your brain, you'll notice improved focus, enhanced memory retention, and sharper cognitive skills in your everyday life. <br /></span>
+                    <span className="mt-[15px]">Our carefully crafted games target key areas such as memory, attention, problem-solving, and more. By consistently challenging your brain, you&apos;ll notice improved focus, enhanced memory retention, and sharper cognitive skills in your everyday life. <br /></span>
                 </p>
                 <a className="mt-8 bg-[#000da1] text-white rounded-[30px] cursor-pointer p-5">Get Started</a>
 
