@@ -13,20 +13,15 @@ const Footer = () => {
     <>
         <main className="bg-r-blue">
             <div className="flex flex-row gap-15 px-[100px] py-[20px] text-white">
-                <div className="flex flex-col gap-2 flex-1">
-                    <div className="flex flex-row items-center">
+                <div className="flex flex-row gap-2 flex-[65%]">
+                    <div className="flex flex-row items-start">
                         <Image src={footerlogo} alt="footer logo" className="w-[100px] h-[100px] " />
-                        <div className="font-bold text-lg">Rewire</div>
+                        
 
                     </div>
-                    <div>
-                        
-                    </div>      
-
-                </div>
-                <div className="flex flex-row">      
-                    <div className="flex flex-col gap-2 flex-1 pt-7">
-                        <div className="text-[2rem] font-bold ">
+                    <div className="flex flex-col pt-6">
+                        <div className="font-bold text-lg">Rewire</div>
+                        <div className="text-base font-bold ">
                             Get in touch
 
                         </div>
@@ -34,8 +29,11 @@ const Footer = () => {
                             Contact
 
                         </div>
+                        
+                    </div>      
 
-                    </div>
+                </div>
+                <div className="flex flex-row flex-[35%]">      
                     <div className="flex flex-col gap-2 flex-1 pt-7">
                         <div className="text-[2rem] font-bold ">
                             Follow Us
@@ -80,7 +78,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="px-[100px]">
-                <div className="text-center font-light text-base text-white pb-8 pt-5 border-t-[1px]">
+                <div className="text-center font-light text-sm text-white pb-8 pt-5 border-t-[1px] border-slate-400">
                     Terms and Conditions | Privacy Policy | 2023 Rewire Brain Training 
                 </div>
             </div>

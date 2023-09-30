@@ -15,7 +15,7 @@ const About = () => {
         <div className="px-[100px] flex flex-col gap-[50px] mb-[100px]">
           <div className="flex flex-row items-center">
             <div className="flex flex-col gap-7 flex-[50%] pl-[50px]">
-              <div className="text-r-blue font-bold text-lg ">20 minutes of your brain time</div>
+              <div className="text-r-blue font-bold text-lg ">20 minutes of your time</div>
               <div className="text-black font-medium text-base ">Welcome to Rewire, your partner in building resilient minds and defying cognitive challenges. With an unwavering dedication to halting cognitive decline and empowering individuals with learning disabilities, we proudly introduce an innovative brain training app designed to inspire cognitive growth and nurture mental strength.</div>
             </div>
             <Image src={mins} alt="20 mins" className="flex-[50%]"/>

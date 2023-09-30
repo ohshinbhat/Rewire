@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import logo from '@/public/logo.svg'
 import Link from 'next/link'
-
+import Contact from './Contact'
 const Homepg = () => {
   return (
     <main className="bg-black min-h-screen min-w-screen">
@@ -15,7 +15,7 @@ const Homepg = () => {
                 <div className='flex flex-row items-center gap-12 text-white mt-[30px] text-sm font-medium'>
                     <Link href='/about'>About Rewire</Link>
                     <Link href='/blogs'>Blogs</Link>
-                    <Link href='/contact'>Contact</Link>
+                    <a className='cursor-pointer'><Contact /></a>
                     <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer'>Get the App</a>
                 </div>
 

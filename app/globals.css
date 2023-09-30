@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+html{
+  font-family: 'Poppins', sans-serif;
+}
 .accordion{
-  margin: 0px 50px;
+  padding: 0px 200px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -22,13 +25,14 @@
 /* slider */
 .slider-container{
   min-width: 100vw;
+  
  /*fix */ 
 }
 .slidertxt{
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
   color: #000da1;
+  padding: 70px 100px;
 }
 
 .sliderh1{

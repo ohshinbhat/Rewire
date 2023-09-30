@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import logo from '@/public/logo.svg'
 import Link from 'next/link'
+import Contact from '@/components/Contact'
 const Navbar = () => {
   return (
     <>
@@ -11,9 +12,9 @@ const Navbar = () => {
                     <Link href='/'className='text-base font-medium'>Rewire</Link>
                 </div>
                 <div className='flex flex-row items-center gap-12 text-r-blue mt-[30px] text-sm font-medium'>
-                    <Link href='/about'>About Rewire</Link>
-                    <Link href='/blogs'>Blogs</Link>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/about' className='cursor-pointer'>About Rewire</Link>
+                    <Link href='/blogs' className='cursor-pointer'>Blogs</Link>
+                    <a className='cursor-pointer'><Contact /></a>
                     <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer text-white'>Get the App</a>
                 </div>
             </nav>
