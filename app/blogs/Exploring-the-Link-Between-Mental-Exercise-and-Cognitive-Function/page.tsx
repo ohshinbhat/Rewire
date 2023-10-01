@@ -32,7 +32,7 @@ const page = () => {
           </div>
           <div className="flex flex-col flex-[60%] gap-5 ">
             <section>
-              <div>Mental exercise is becoming increasingly popular as people strive to improve their cognitive function. Cognitive function refers to the brain's ability to process, store, and retrieve information. It is essential for learning, memory, and decision-making. As people age, cognitive function tends to decline, leading to memory loss, decreased attention span, and reduced problem-solving abilities. However, research has shown that mental exercise can help to improve cognitive function. In this comprehensive guide, we will explore the link between mental exercise and cognitive function, and how mental exercise can benefit overall well-being.</div>
+              <div>Mental exercise is becoming increasingly popular as people strive to improve their cognitive function. Cognitive function refers to the brain&apos;s ability to process, store, and retrieve information. It is essential for learning, memory, and decision-making. As people age, cognitive function tends to decline, leading to memory loss, decreased attention span, and reduced problem-solving abilities. However, research has shown that mental exercise can help to improve cognitive function. In this comprehensive guide, we will explore the link between mental exercise and cognitive function, and how mental exercise can benefit overall well-being.</div>
             </section>
             <section id="section1">
               <div className="text-base font-bold text-r-blue">What is Cognitive Function?</div>
@@ -40,7 +40,7 @@ const page = () => {
             </section>
             <section id="section2">
               <div className="text-base font-bold text-r-blue">What is Mental Exercise?</div>
-              <div>Mental exercise refers to activities that challenge the brain and require mental effort. These activities include reading, learning a new skill, playing brain games, and engaging in stimulating conversation. Mental exercise is thought to improve cognitive function by increasing neural plasticity, which is the brain's ability to form new connections and reorganize existing ones. Mental exercise can also increase blood flow to the brain, which can enhance cognitive function.</div>
+              <div>Mental exercise refers to activities that challenge the brain and require mental effort. These activities include reading, learning a new skill, playing brain games, and engaging in stimulating conversation. Mental exercise is thought to improve cognitive function by increasing neural plasticity, which is the brain&apos;s ability to form new connections and reorganize existing ones. Mental exercise can also increase blood flow to the brain, which can enhance cognitive function.</div>
             </section>
             <section id="section3">
               <div className="text-base font-bold text-r-blue">The Benefits of Mental Exercise for Cognitive Function</div>
@@ -80,7 +80,7 @@ const page = () => {
               <div className="text-base font-bold text-r-blue">Conclusion</div>
               <div>In conclusion, mental exercise and physical exercise can both have many benefits for cognitive function. Mental exercise can improve attention, memory, language, perception, and executive function, while physical exercise can increase blood flow to the brain and improve neural plasticity. Combining mental and physical exercise can have even greater benefits for cognitive function and overall well-being. <br />
                 Incorporating mental and physical exercise into your daily routine can be simple and enjoyable. Reading, learning a new skill, playing brain games, and engaging in stimulating conversation are all great ways to exercise the brain. Walking, joining a fitness class, and participating in a sport are all great ways to get exercise. <br/>
-                Remember, it's never too late to start exercising your brain and body. By incorporating mental and physical exercise into your daily routine, you can improve your cognitive function, reduce the risk of cognitive decline and dementia, and enhance your overall well-being.</div>
+                Remember, it&apos;s never too late to start exercising your brain and body. By incorporating mental and physical exercise into your daily routine, you can improve your cognitive function, reduce the risk of cognitive decline and dementia, and enhance your overall well-being.</div>
             </section>
           </div>
         </div>
