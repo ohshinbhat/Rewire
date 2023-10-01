@@ -72,7 +72,11 @@ const Footer = () => {
                         <div className="text-sm font-normal text-center mb-0 pb-4">
                             Download the App now
                         </div>
-                        <Image src={playstore} alt="playstore logo" className="scale-80 pt-0 mt-0" />
+                        <a href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">
+                            <Image src={playstore} alt="playstore logo" className="scale-80 pt-0 mt-0" />
+
+                        </a>
+                        
 
                     </div>
                 </div>

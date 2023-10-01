@@ -48,9 +48,9 @@ const About = () => {
               </div>              
             </div>
           </div>
-          <div className="flex flex-col items-center mt-[100px] gap-7">
+          <div className="flex flex-col items-center gap-7">
               <div className="font-bold text-xl text-r-blue">Ready to get started?</div>
-              <div className="font-medium text-white bg-r-blue rounded-[32px] py-5 text-base px-16">Yes! Sign me up!</div>
+              <a className="font-medium text-white bg-r-blue rounded-[32px] py-5 text-base px-16" href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">Yes! Sign me up!</a>
           </div>
         </div>
         <Footer />

@@ -12,7 +12,7 @@ const Works = () => {
                     <span className="mt-[15px]">So we came up with a system that takes <span className='font-bold text-r-blue'>only 20 minutes a day.</span> <br /></span>
                     <span className="mt-[15px]">Our carefully crafted games target key areas such as memory, attention, problem-solving, and more. By consistently challenging your brain, you&apos;ll notice improved focus, enhanced memory retention, and sharper cognitive skills in your everyday life. <br /></span>
                 </p>
-                <a className="mt-8 bg-[#000da1] text-white rounded-[30px] cursor-pointer p-5 text-center justify-start text-base font-bold">Get Started</a>
+                <a className="mt-8 bg-[#000da1] text-white rounded-[30px] cursor-pointer p-5 text-center justify-start text-base font-bold" href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">Get Started</a>
 
 
 

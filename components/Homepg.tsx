@@ -16,14 +16,14 @@ const Homepg = () => {
                     <Link href='/about'>About Rewire</Link>
                     <Link href='/blogs'>Blogs</Link>
                     <a className='cursor-pointer'><Contact /></a>
-                    <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer'>Get the App</a>
+                    <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer' href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">Get the App</a>
                 </div>
 
             </nav>
             <div className='flex flex-col items-end mx-[100px] justify-center mt-[30vh] text-white'>
                 <div className="font-bold text-[4rem]">Rewire your brain</div>
                 <div className='font-sm'>Brain Training Personalized to your needs.</div>
-                <a className="mt-8 py-3 px-9 bg-[#000da1] font-bold w-[209px] rounded-[40px] cursor-pointer text-center text-sm ">Try for free</a>
+                <a className="mt-8 py-3 px-9 bg-[#000da1] font-bold w-[209px] rounded-[40px] cursor-pointer text-center text-sm " href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">Try for free</a>
             </div>
         </div>
 

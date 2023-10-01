@@ -11,7 +11,7 @@ const Blogs = () => {
     <>
       <main>
         <Navbar />
-        <div className="px-[100px] flex flex-col gap-[50px] mb-[100px]">
+        <div className="px-[100px] flex flex-col gap-[50px] mb-[100px] min-h-screen">
           <div className="flex flex-col">
             <div className="text-xl font-bold text-left pl-5 text-r-blue">Learn everything about your cognitive health, one blog at a time.</div>
             <div className="text-base text-left pl-5 text-r-blue font-light">We’re not just an app, we’re a community of curious minds that’s always ready to help each other.</div>

@@ -15,7 +15,7 @@ const Navbar = () => {
                     <Link href='/about' className='cursor-pointer'>About Rewire</Link>
                     <Link href='/blogs' className='cursor-pointer'>Blogs</Link>
                     <a className='cursor-pointer'><Contact /></a>
-                    <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer text-white'>Get the App</a>
+                    <a className='py-[12px] px-[44px] bg-[#000da1] font-bold rounded-[1.6rem] cursor-pointer text-white' href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">Get the App</a>
                 </div>
             </nav>
         </main>
