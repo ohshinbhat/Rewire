@@ -18,9 +18,9 @@ const page = () => {
           <Image src={blog1} alt="blog1" />
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20">
-          <div className="flex flex-col flex-[40%] sticky top-20 pl-6 font-normal text-[1rem] text-slate-600 cursor-pointer ">
-            <div className="text-[2rem] font-medium text-r-blue"> Jump To Section</div>
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
+          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
+            <div className="text-sm font-bold text-r-blue pb-10"> Jump To Section</div>
             <a href="#section1">What is Cognitive Function?</a>
             <a href="#section2">What is Mental Exercise?</a>
             <a href="#section3">The Benefits of Mental Exercise for Cognitive Function</a>
@@ -30,7 +30,7 @@ const page = () => {
             <a href="#section7">The Benefits of Combining Mental and Physical Exercise for Cognitive Function</a>
             <a href="#section8">Conclusion</a>
           </div>
-          <div className="flex flex-col flex-[60%] gap-5 ">
+          <div className="flex flex-col flex-[65%] gap-5 pr-16 ">
             <section>
               <div>Mental exercise is becoming increasingly popular as people strive to improve their cognitive function. Cognitive function refers to the brain&apos;s ability to process, store, and retrieve information. It is essential for learning, memory, and decision-making. As people age, cognitive function tends to decline, leading to memory loss, decreased attention span, and reduced problem-solving abilities. However, research has shown that mental exercise can help to improve cognitive function. In this comprehensive guide, we will explore the link between mental exercise and cognitive function, and how mental exercise can benefit overall well-being.</div>
             </section>

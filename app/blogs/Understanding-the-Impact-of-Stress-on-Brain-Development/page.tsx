@@ -18,16 +18,16 @@ const page = () => {
           <Image src={blog1} alt="blog1" />
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20">
-          <div className="flex flex-col flex-[40%] sticky top-20 pl-6 font-normal text-[1rem] text-slate-600 cursor-pointer ">
-            <div className="text-[2rem] font-medium text-r-blue"> Jump To Section</div>
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
+          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
+            <div className="text-sm font-bold text-r-blue pb-10"> Jump To Section</div>
             <a href="#section1">Types of Stress in Children</a>
             <a href="#section2">Effects of Stress on Brain Development</a>
             <a href="#section3">Factors Leading to Toxic Stress</a>
             <a href="#section4">The Difference Between Toxic and Tolerable Stress</a>
             <a href="#section5">Protective Factors and Resilience</a>
           </div>
-          <div className="flex flex-col flex-[60%] gap-5 ">
+          <div className="flex flex-col flex-[60%] gap-5 pr-16 ">
             <section>
               <div>Stress is a natural part of life and plays a crucial role in child development. However, it is important to recognize the effects of stress on the developing brain and the potential long-term impacts it can have on children. In this article, we will explore the different types of stress, the effects of stress on brain development, and the factors that can lead to toxic stress. Understanding these concepts is essential for parents, caregivers, and educators to create supportive environments and promote healthy brain development in children.</div>
             </section>

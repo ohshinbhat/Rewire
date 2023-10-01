@@ -15,12 +15,12 @@ const page = () => {
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" />
+          <Image src={blog1} alt="blog1" className=""/>
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20">
-          <div className="flex flex-col flex-[40%] sticky top-20 pl-6 font-normal text-[1rem] text-slate-600 cursor-pointer ">
-            <div className="text-[2rem] font-medium text-r-blue"> Jump To Section</div>
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
+          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
+            <div className="text-sm font-bold text-r-blue pb-10"> JUMP TO SECTION</div>
             <a href="#section1">Understanding Cognitive Function</a>
             <a href="#section2">The Science Behind Cognitive Training</a>
             <a href="#section3">The Benefits of Brain Games for Cognitive Training</a>
@@ -31,7 +31,7 @@ const page = () => {
             <a href="#section8">Additional Information</a>
             <a href="#section9">Conclusion</a>
           </div>
-          <div className="flex flex-col flex-[60%] gap-5 ">
+          <div className="flex flex-col flex-[65%] gap-5 pr-16 ">
             <section>
               <div>As we age, our cognitive abilities can decline, making it challenging to learn new things, solve problems, and remember important details. However, there are ways to keep our minds sharp, including cognitive training. In this article, we will explore the science behind cognitive training, the benefits of brain games, and practical tips for incorporating cognitive training into your daily life.</div>
             </section>

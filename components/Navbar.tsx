@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="flex flex-row justify-between items-center text-r-blue min-w-screen mx-[100px]">
                 <div className="flex flex-row items-center gap-2 font-medium mt-[30px]">
                     <Image src={logo} alt="Rewire logo" className="w-max cursor-pointer" />
-                    <Link href='/'className='text-base font-medium'>Rewire</Link>
+                    <Link href='/'className='text-base font-bold'>Rewire</Link>
                 </div>
                 <div className='flex flex-row items-center gap-12 text-r-blue mt-[30px] text-sm font-medium'>
                     <Link href='/about' className='cursor-pointer'>About Rewire</Link>
