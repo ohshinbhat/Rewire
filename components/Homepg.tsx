@@ -16,7 +16,7 @@ const Homepg = () => {
                     <Link href='/'className='text-base font-bold'>Rewire</Link>
                 </div>
 
-                    <div className="space-y-2 pt-3 xl:hidden flex items-center flex-col" onClick={() => setIsNavOpen((prev) => !prev)}>
+                    <div className="space-y-2 xl:hidden flex items-center flex-col" onClick={() => setIsNavOpen((prev) => !prev)}>
                         <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
                         <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
                         <span className="block h-0.5 w-8 animate-pulse bg-white"></span>
