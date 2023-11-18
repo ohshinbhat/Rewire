@@ -1,25 +1,25 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import Image from "next/image"
-import blog1 from "@/public/Images/blog3.png"
+import blog1 from "@/public/Images/blog3.jpg"
 const page = () => {
   return (
     <>
       <Navbar />
 
 
-      <div className="px-[100px]">
+      <div className="px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
 
-          <div className="text-center text-[52px] text-r-blue font-bold">Understanding the Impact of Stress on Brain Development</div>
-          <div className="text-center text-sm text-black"> Rudra Dev    |    Date,2023    |    Time To Read</div>
+          <div className="text-center text-base md:text-[52px] text-r-blue font-bold">Understanding the Impact of Stress on Brain Development</div>
+          <div className="text-center text-[0.75rem] md:text-sm text-black pb-5"> Rudra Dev    |    Date,2023    |    Time To Read</div>
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" />
+          <Image src={blog1} alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full" />
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
-          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
+          <div className="sm:flex flex-col flex-[35%] sticky top-20 pl-5 font-normal text-[1rem] text-r-blue cursor-pointer py-[100px] hidden">
             <div className="text-sm font-bold text-r-blue pb-10"> Jump To Section</div>
             <a href="#section1">Types of Stress in Children</a>
             <a href="#section2">Effects of Stress on Brain Development</a>
@@ -27,7 +27,7 @@ const page = () => {
             <a href="#section4">The Difference Between Toxic and Tolerable Stress</a>
             <a href="#section5">Protective Factors and Resilience</a>
           </div>
-          <div className="flex flex-col flex-[60%] gap-5 pr-16 ">
+          <div className="flex flex-col flex-[60%] gap-5 pr-0 sm:pr-16 ">
             <section>
               <div>Stress is a natural part of life and plays a crucial role in child development. However, it is important to recognize the effects of stress on the developing brain and the potential long-term impacts it can have on children. In this article, we will explore the different types of stress, the effects of stress on brain development, and the factors that can lead to toxic stress. Understanding these concepts is essential for parents, caregivers, and educators to create supportive environments and promote healthy brain development in children.</div>
             </section>

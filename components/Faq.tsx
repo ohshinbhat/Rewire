@@ -58,14 +58,14 @@ const Faq: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col gap-10">
-      <div className="text-xl font-bold text-r-blue text-bold text-center">
+    <div className="flex flex-col gap-10 mb-[100px]">
+      <div className="text-base sm:text-xl px-[25px] sm:px-[100px] font-bold text-r-blue text-bold text-center">
         Frequently Asked Questions
       </div>
       <div className="accordion">
         {data.map((item, index) => (
           <div key={index} onClick={() => toggleAccordion(index)} className="border-b-2 py-1">
-            <div className="p-[30px] flex flex-row justify-between items-center h-[50px] rounded-[10px] text-black cursor-pointer text-sm ">
+            <div className="p-[20px] sm:p-[30px] flex flex-row justify-between items-center h-[50px] rounded-[10px] text-black cursor-pointer text-[0.75rem] sm:text-sm gap-3">
               <div className="font-medium">
                 <div className={accordion === index ? "active" : ""}>{item.question}</div>
               </div>
@@ -79,7 +79,7 @@ const Faq: React.FC = () => {
                 </IconContext.Provider>
               </div>
             </div>
-            <div className="mx-[30px] my-[10xpx] text-sm text-left text-gray-600 pb-1">
+            <div className="mx-[30px] my-[10xpx] text-[0.75rem] sm:text-sm text-left text-gray-600 pb-1">
               <p className={accordion === index ? "active" : "inactive"}>{item.answer}</p>
             </div>
           </div>

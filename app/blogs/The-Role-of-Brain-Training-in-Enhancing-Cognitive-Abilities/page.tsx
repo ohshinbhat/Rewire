@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 import Image from "next/image"
-import blog1 from "@/public/Images/blog1.png"
+import blog1 from "@/public/Images/blog1.jpg"
 const page = () => {
   return (
     <>

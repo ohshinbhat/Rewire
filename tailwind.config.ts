@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -9,10 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '450px',
+        ...defaultTheme.screens,
+      },
       backgroundImage: {
         'homebg': "url('/Images/bg.jpg')",
         'homebg2': "url('/Images/homebg.jpg')",
         'homebg3': "url('/Images/bg3.png')",
+        'mbbg': "url('/Images/mobilebg.png')"
       },
       fontSize: {
         sm: '1.25rem',
