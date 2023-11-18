@@ -11,11 +11,11 @@ const page = () => {
       <div className="px-[100px]">
 
           <div className="text-center text-[52px] text-r-blue font-bold">The Role of Brain Training in Enhancing Cognitive Abilities</div>
-          <div className="text-center text-sm text-black"> Rudra Dev    |    Date,2023    |    Time To Read</div>
+          <div className="text-center text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" className=""/>
+          <Image src={blog1} alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
         </div>
         
         <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
