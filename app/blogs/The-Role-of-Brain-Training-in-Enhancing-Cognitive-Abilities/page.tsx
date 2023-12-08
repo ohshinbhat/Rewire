@@ -1,26 +1,25 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
-import Image from "next/image"
-import blog1 from "@/public/Images/blog1.jpg"
+
 const page = () => {
   return (
     <>
       <Navbar />
 
 
-      <div className="px-[100px]">
+      <div className="px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
 
-          <div className="text-center text-[52px] text-r-blue font-bold">The Role of Brain Training in Enhancing Cognitive Abilities</div>
-          <div className="text-center text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
+          <div className="text-center text-base md:text-[52px] text-r-blue font-bold">The Role of Brain Training in Enhancing Cognitive Abilities</div>
+          <div className="text-center text-[0.75rem] md:text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
+          <img src="/Images/blog1.jpg" alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
-          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
-            <div className="text-sm font-bold text-r-blue pb-10"> JUMP TO SECTION</div>
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
+          <div className="sm:flex flex-col flex-[35%] sticky top-20 pl-5 font-normal text-[1rem] text-r-blue cursor-pointer py-[100px] hidden gap-2">
+            <div className="text-sm font-bold text-r-blue pb-6"> JUMP TO SECTION</div>
             <a href="#section1">Understanding Cognitive Function</a>
             <a href="#section2">The Science Behind Cognitive Training</a>
             <a href="#section3">The Benefits of Brain Games for Cognitive Training</a>
@@ -31,7 +30,7 @@ const page = () => {
             <a href="#section8">Additional Information</a>
             <a href="#section9">Conclusion</a>
           </div>
-          <div className="flex flex-col flex-[65%] gap-5 pr-16 ">
+          <div className="flex flex-col flex-[65%] gap-5 pr-0 sm:pr-16 ">
             <section>
               <div>As we age, our cognitive abilities can decline, making it challenging to learn new things, solve problems, and remember important details. However, there are ways to keep our minds sharp, including cognitive training. In this article, we will explore the science behind cognitive training, the benefits of brain games, and practical tips for incorporating cognitive training into your daily life.</div>
             </section>

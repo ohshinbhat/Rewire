@@ -1,13 +1,10 @@
 "use client";
-import Image from "next/image"
-import footerlogo from "@/public/Images/logo2.png"
 import {AiFillFacebook} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
 import { IconContext } from "react-icons";
-import playstore from "@/public/Images/playstore.png"
-import Link from "next/link";
+
 
 const Footer = () => {
   return (
@@ -16,7 +13,7 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row gap-15 px-[25px] sm:px-[100px] py-[20px] text-white">
                 <div className="flex flex-row gap-2 flex-[65%]">
                     <div className="flex flex-row items-start">
-                        <Image src={footerlogo} alt="footer logo" className=" md:w-[100px] md:h-[100px] w-[50px] h-[50px] " />
+                        <img src="/Images/logo2.png" alt="footer logo" className=" md:w-[100px] md:h-[100px] w-[50px] h-[50px] " />
                         
 
                     </div>
@@ -26,18 +23,18 @@ const Footer = () => {
                             Get in touch
 
                         </div>
-                        <div className="text-[0.4rem] md:text-[0.75rem] font-normal">
+                        <div className="text-[0.4rem] md:text-[1rem] font-normal">
                             <div>
-                                <div>
+                                <div className="font-bold">
                                     Contact
                                 </div>
-                                <div className="flex flex-row">
-                                    <div>Email:</div>
-                                    <a href="mailto:rewirebraintraining@gmail.com" target="_blank">rewirebraintraining@gmail.com 
+                                <div className="flex flex-row gap-2">
+                                    <div>Email: </div>
+                                    <a href="mailto:rewirebraintraining@gmail.com" target="_blank" className="font-medium underline"> rewirebraintraining@gmail.com 
                                     </a>
 
                                 </div>
-                                <div>Phone: +91 9999999999</div>
+                        
                             </div>
 
                         </div>
@@ -52,26 +49,16 @@ const Footer = () => {
 
                         </div>
                         <IconContext.Provider value={{ color: 'white', size: '30' }}>
-                            <div className="flex flex-row gap-2 items-center">
-                                <AiFillFacebook />
-                                <div className="font-medium text-[0.75rem] md:text-sm">Facebook</div>
-
-                            </div>
-                            <div className="flex flex-row gap-2 items-center">
+                            <a href="https://www.instagram.com/rewirebrainapp/" target="_blank" className="flex flex-row gap-2 items-center">
                                 <AiFillInstagram />
                                 <div className="font-medium text-[0.75rem] md:text-sm">Instagram</div>
 
-                            </div>
-                            <div className="flex flex-row gap-2 items-center">
+                            </a>
+                            <a href="https://www.linkedin.com/company/rewire-brain-training/" target="_blank" className="flex flex-row gap-2 items-center">
                                 <AiFillLinkedin />
                                 <div className="font-medium text-[0.75rem] md:text-sm">LinkedIn</div>
 
-                            </div>
-                            <div className="flex flex-row gap-2 items-center">
-                                <AiFillYoutube />
-                                <div className="font-medium text-[0.75rem] md:text-sm">Youtube</div>
-
-                            </div>
+                            </a>
                         </IconContext.Provider>
                         
 
@@ -85,7 +72,7 @@ const Footer = () => {
                             Download the App now
                         </div>
                         <a href='https://play.google.com/store/apps/details?id=com.rewire.getbrainwise' target="_blank">
-                            <Image src={playstore} alt="playstore logo" className="scale-100 md:scale-80 pt-0 mt-0" />
+                            <img src="/Images/playstore.png" alt="playstore logo" className="scale-100 md:scale-80 pt-0 mt-0" />
 
                         </a>
                         

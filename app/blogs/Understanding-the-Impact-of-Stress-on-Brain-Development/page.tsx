@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
-import Image from "next/image"
-import blog1 from "@/public/Images/blog3.jpg"
+
 const page = () => {
   return (
     <>
@@ -15,12 +14,12 @@ const page = () => {
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
+          <img src="/Images/blog3.jpg" alt="blog3" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
         </div>
         
         <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
-          <div className="sm:flex flex-col flex-[35%] sticky top-20 pl-5 font-normal text-[1rem] text-r-blue cursor-pointer py-[100px] hidden">
-            <div className="text-sm font-bold text-r-blue pb-10"> Jump To Section</div>
+          <div className="sm:flex flex-col flex-[35%] sticky top-20 pl-5 font-normal text-[1rem] text-r-blue cursor-pointer py-[100px] hidden gap-2">
+            <div className="text-sm font-bold text-r-blue pb-6"> Jump To Section</div>
             <a href="#section1">Types of Stress in Children</a>
             <a href="#section2">Effects of Stress on Brain Development</a>
             <a href="#section3">Factors Leading to Toxic Stress</a>

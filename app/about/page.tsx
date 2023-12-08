@@ -1,10 +1,5 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
-import Image from "next/image"
-import mins from "@/public/Images/20mins.png"
-import mission from "@/public/Images/mission.png"
-import Profile from "@/public/Images/profile.jpg"
-
 
 
 const About = () => {
@@ -13,20 +8,20 @@ const About = () => {
       <main>
         <Navbar />
         <div className="px-[25px] sm:px-[100px] flex flex-col gap-[50px] mb-[100px]">
-          <div className="text-r-blue font-bold text-base sm:text-xl xl:hidden text-center">20 minutes of your time</div> 
+          <div className="text-r-blue font-bold text-base sm:text-xl xl:hidden text-center ">20 minutes of your time</div> 
           <div className="flex xl:flex-row items-center flex-col-reverse">
             
             <div className="flex flex-col gap-7 flex-[50%] xl:pl-[50px]">
               <div className="text-r-blue font-bold text-xl hidden xl:flex">20 minutes of your time</div>              
-              <div className="text-black font-medium text-[0.75rem] sm:text-base ">Welcome to Rewire, your partner in building resilient minds and defying cognitive challenges. With an unwavering dedication to halting cognitive decline and empowering individuals with learning disabilities, we proudly introduce an innovative brain training app designed to inspire cognitive growth and nurture mental strength.</div>
+              <div className="text-black font-medium text-[0.75rem] sm:text-base px-[25px] sm:px-[50px]">Welcome to Rewire, your partner in building resilient minds and defying cognitive challenges. With an unwavering dedication to halting cognitive decline and empowering individuals with learning disabilities, we proudly introduce an innovative brain training app designed to inspire cognitive growth and nurture mental strength.</div>
             </div>
-            <Image src={mins} alt="20 mins" className="flex-[50%]"/>
+            <img src="/Images/20mins.png" alt="20 mins" className="flex-[50%]"/>
           </div>
 
           <div className="px-[25px] sm:px-[50px]"> 
             <div className="text-r-blue font-bold text-base sm:text-xl xl:hidden text-center">Our Mission </div>           
             <div className="flex xl:flex-row items-center gap-4 flex-col">
-              <Image src={mission} alt="mission"/>
+              <img src="/Images/mission.png" alt="mission"/>
               <div className="flex flex-col gap-7 xl:pr-[50px]">
                 <div className="text-r-blue font-bold text-lg text-left hidden xl:flex">Our Mission </div>
                 <span className="text-black font-medium text-[0.75rem] sm:text-base">At Rewire, our mission is clear: to help everyone improve their cognitive abilities and empower those with learning disabilities to develop unbreakable mental resilience. </span>
@@ -49,7 +44,7 @@ const About = () => {
                 <span className="text-black font-medium text-[0.75rem] sm:text-base">If you are looking for a way to improve your cognitive function, Rewire is a great option for you.</span>
               </div>
               <div className="flex-[40%]">
-                <Image src={Profile} alt="Dr. Akila Sadashivan" className="rounded-[30px] scale-[85%] xl:scale-[65%]"/>
+                <img src="/Images/profile.jpg" alt="Dr. Akila Sadashivan" className="rounded-[30px] scale-[85%] xl:scale-[65%]"/>
               </div>              
             </div>
           </div>

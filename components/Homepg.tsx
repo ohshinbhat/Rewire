@@ -1,6 +1,4 @@
 "use client";
-import Image from 'next/image'
-import logo from '@/public/logo.svg'
 import Link from 'next/link'
 import Contact from './Contact'
 import React, { useState } from 'react';
@@ -12,7 +10,7 @@ const Homepg = () => {
         <div className='min-h-screen min-w-screen bg-mbbg lg:bg-homebg3 bg-cover bg-center bg-no-repeat bg'>
             <nav className="flex flex-row justify-between items-center text-white min-w-screen mx-[25px] sm:mx-[100px] py-[40px] ">
                 <div className="flex flex-row items-center gap-0 sm:gap-2 font-medium ">
-                    <Image src={logo} alt="Rewire logo" className=" scale-75 sm:scale-100 w-max cursor-pointer" />
+                    <img src="/logo.svg" alt="Rewire logo" className=" scale-75 sm:scale-100 w-max cursor-pointer" />
                     <Link href='/'className='text-base font-bold'>Rewire</Link>
                 </div>
 

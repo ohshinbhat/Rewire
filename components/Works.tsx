@@ -1,5 +1,4 @@
-import Image from "next/image"
-import works from "@/public/Images/brainz.jpg"
+
 const Works = () => {
   return (
     <main className="px-[25px] sm:px-[100px] py-[80px]">
@@ -20,7 +19,7 @@ const Works = () => {
 
             </div>
             <div className="items-center content-center text-center flex-[55%]">
-                <Image src={works} alt="brain" className="scale-[80%] self-center w-full"/>
+                <img src="/Images/brainz.jpg" alt="brain" className="scale-[80%] self-center w-full"/>
 
             </div>
 

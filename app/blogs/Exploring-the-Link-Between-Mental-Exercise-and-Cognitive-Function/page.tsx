@@ -1,26 +1,25 @@
 import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
-import Image from "next/image"
-import blog1 from "@/public/Images/blog2.jpg"
+
 const page = () => {
   return (
     <>
       <Navbar />
 
 
-      <div className="px-[100px]">
+      <div className="px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
 
-          <div className="text-center text-[52px] text-r-blue font-bold">Exploring the Link Between Mental Exercise and Cognitive Function</div>
-          <div className="text-center text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
+          <div className="text-center text-base md:text-[52px] text-r-blue font-bold">Exploring the Link Between Mental Exercise and Cognitive Function</div>
+          <div className="text-center text-[0.75rem] md:text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
 
 
         <div className="flex items-center justify-center">
-          <Image src={blog1} alt="blog1" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
+          <img src="/Images/blog2.jpg" alt="blog2" className="xl:w-[1000px] xl:h-[500px] w-full h-full rounded-lg" />
         </div>
         
-        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[100px]">
-          <div className="flex flex-col flex-[35%] sticky top-20 pl-6 font-normal text-[1rem] text-r-blue cursor-pointer pr-40 py-[100px]">
-            <div className="text-sm font-bold text-r-blue pb-10"> Jump To Section</div>
+        <div className="flex flex-row gap-6 pt-[100px] items-start pb-20 px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
+          <div className="sm:flex flex-col flex-[35%] sticky top-20 pl-5 font-normal text-[1rem] text-r-blue cursor-pointer py-[100px] hidden gap-2">
+            <div className="text-sm font-bold text-r-blue pb-6"> Jump To Section</div>
             <a href="#section1">What is Cognitive Function?</a>
             <a href="#section2">What is Mental Exercise?</a>
             <a href="#section3">The Benefits of Mental Exercise for Cognitive Function</a>
@@ -30,7 +29,7 @@ const page = () => {
             <a href="#section7">The Benefits of Combining Mental and Physical Exercise for Cognitive Function</a>
             <a href="#section8">Conclusion</a>
           </div>
-          <div className="flex flex-col flex-[65%] gap-5 pr-16 ">
+          <div className="flex flex-col flex-[65%] gap-5 pr-0 sm:pr-16 ">
             <section>
               <div>Mental exercise is becoming increasingly popular as people strive to improve their cognitive function. Cognitive function refers to the brain&apos;s ability to process, store, and retrieve information. It is essential for learning, memory, and decision-making. As people age, cognitive function tends to decline, leading to memory loss, decreased attention span, and reduced problem-solving abilities. However, research has shown that mental exercise can help to improve cognitive function. In this comprehensive guide, we will explore the link between mental exercise and cognitive function, and how mental exercise can benefit overall well-being.</div>
             </section>

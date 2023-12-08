@@ -1,7 +1,4 @@
 "use client";
-import { CiMenuBurger } from "react-icons/ci";
-import Image from 'next/image'
-import logo from '@/public/logo.svg'
 import Link from 'next/link'
 import Contact from '@/components/Contact'
 
@@ -17,7 +14,7 @@ const Navbar = () => {
 
             <nav className="flex flex-row justify-between items-center  text-r-blue min-w-screen mx-[25px] my-[40px] sm:mx-[100px] ">
                 <div className="flex flex-row items-center gap-0 sm:gap-2 font-medium ">
-                    <Image src={logo} alt="Rewire logo" className="scale-75 sm:scale-100 w-max cursor-pointer" />
+                    <img src="/logo.svg" alt="Rewire logo" className="scale-75 sm:scale-100 w-max cursor-pointer" />
                     <Link href='/'className='text-base font-bold'>Rewire</Link>
                 </div>
 
