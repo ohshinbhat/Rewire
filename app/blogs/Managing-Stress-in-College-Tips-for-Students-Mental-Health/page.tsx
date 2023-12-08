@@ -9,7 +9,7 @@ const page = () => {
 
       <div className="px-[25px] xl:px-[100px] sm:max-xl:px-[50px]">
 
-          <div className="text-center text-base md:text-[52px] text-r-blue font-bold">Managing Stress in College: Essential Tips for Students' Mental Health</div>
+          <div className="text-center text-base md:text-[52px] text-r-blue font-bold">Managing Stress in College: Essential Tips for Students&apos; Mental Health</div>
           <div className="text-center text-[0.75rem] md:text-sm text-black pb-5"> Rudra Dev    |    September,2023    |    4mins</div>
 
 
@@ -46,7 +46,7 @@ const page = () => {
             <section id="section2">
               <div className="text-base font-bold text-r-blue">Identifying the Causes of Stress in College Students</div>
               <div>College life can be overwhelming, and students face various stressors that can contribute to their overall stress levels. Some common causes of stress in college students include:</div><br/>
-              <div>Finances: Many students work part-time jobs to afford high tuition and living expenses. Financial struggles can lead to stress and anxiety. Students should explore options such as grants, loans, or work-study programs offered by their college's financial aid office.</div><br/>
+              <div>Finances: Many students work part-time jobs to afford high tuition and living expenses. Financial struggles can lead to stress and anxiety. Students should explore options such as grants, loans, or work-study programs offered by their college&apos;s financial aid office.</div><br/>
               <div>Homesickness and New Levels of Independence: Students who are away from home for the first time may experience homesickness and struggle with newfound independence. These factors can contribute to stress and anxiety.</div><br/>
               <div>Living Among Strangers: Adjusting to campus life and making new friends can be challenging, especially for students who are naturally shy or introverted. Feeling isolated can increase stress levels.</div><br/>
               <div>Cohabitating With Roommates: Sharing a living space with someone unfamiliar can be stressful, particularly if conflicts arise. Establishing open communication and setting boundaries can help alleviate stress in such situations.</div><br/>
@@ -79,7 +79,7 @@ const page = () => {
                 <span className="font-bold text-r-blue">Maintain a Balanced Diet</span> <br/>
                 Eating a nutritious diet can have a positive impact on your mood and stress levels. Incorporate stress-reducing foods into your meals, such as oranges, spinach, fish, almonds, and avocados. Avoid excessive caffeine intake, as it can increase anxiety levels.<br />
                 <span className="font-bold text-r-blue">Engage in Regular Exercise</span> <br />
-                Physical activity releases endorphins, which are natural mood boosters. Engage in regular exercise to reduce stress and improve your overall well-being. Aim for at least 30 minutes of moderate activity each day, whether it's going for a walk, practicing yoga, or participating in a sports activity.<br/>
+                Physical activity releases endorphins, which are natural mood boosters. Engage in regular exercise to reduce stress and improve your overall well-being. Aim for at least 30 minutes of moderate activity each day, whether it&apos;s going for a walk, practicing yoga, or participating in a sports activity.<br/>
                 <span className="font-bold text-r-blue">Practice Time Management</span> <br />
                 Effective time management can alleviate stress caused by overwhelming workloads and deadlines. Break down tasks into smaller, manageable goals and prioritize your responsibilities. Avoid procrastination by setting realistic deadlines and creating a schedule that allows for adequate study and relaxation time.<br/>
                 <span className="font-bold text-r-blue">Seek Social Support</span> <br />
@@ -89,16 +89,16 @@ const page = () => {
                 <span className="font-bold text-r-blue">Establish Boundaries and Say No</span> <br/>
                 Learn to set boundaries and say no to excessive commitments. Overloading your schedule can lead to burnout and increased stress levels. Prioritize self-care and make time for activities that bring you peace and rejuvenation.<br />
                 <span className="font-bold text-r-blue">Seek Professional Help</span> <br />
-                If stress becomes overwhelming and begins to significantly impact your daily life, don't hesitate to seek professional help. Most colleges offer counseling services where you can talk to a trained professional who can provide guidance and support. Reach out to your college's student services or counseling center for assistance.<br/>
+                If stress becomes overwhelming and begins to significantly impact your daily life, don&apos;t hesitate to seek professional help. Most colleges offer counseling services where you can talk to a trained professional who can provide guidance and support. Reach out to your college&apos;s student services or counseling center for assistance.<br/>
                 <span className="font-bold text-r-blue">Take Breaks and Practice Self-Care</span> <br />
-                Make self-care a priority by taking regular breaks and engaging in activities that bring you joy and relaxation. Whether it's spending time in nature, reading a book, taking a bath, or practicing a hobby, allow yourself time to recharge and rejuvenate.<br/>
-                Remember, managing stress is an ongoing process, and it's important to find what works best for you. By implementing these strategies and seeking support when needed, you can navigate college life with greater ease and maintain your mental health and well-being.
+                Make self-care a priority by taking regular breaks and engaging in activities that bring you joy and relaxation. Whether it&apos;s spending time in nature, reading a book, taking a bath, or practicing a hobby, allow yourself time to recharge and rejuvenate.<br/>
+                Remember, managing stress is an ongoing process, and it&apos;s important to find what works best for you. By implementing these strategies and seeking support when needed, you can navigate college life with greater ease and maintain your mental health and well-being.
 
               </div>
             </section>
             <section id="section5">
               <div className="text-base font-bold text-r-blue">Conclusion</div>
-              <div>College is a challenging and transformative time in a student's life, but it can also bring about significant stress. Understanding the causes and impact of stress on college students is essential for developing effective strategies to manage and alleviate stress. By prioritizing self-care, seeking support, and implementing stress-reducing techniques, students can navigate their college journey with resilience and maintain their mental health and well-being. Remember, you are not alone in this journey, and there are resources available to help you. Take care of yourself and embrace the opportunities that college has to offer while managing stress effectively.</div>
+              <div>College is a challenging and transformative time in a student&apos;s life, but it can also bring about significant stress. Understanding the causes and impact of stress on college students is essential for developing effective strategies to manage and alleviate stress. By prioritizing self-care, seeking support, and implementing stress-reducing techniques, students can navigate their college journey with resilience and maintain their mental health and well-being. Remember, you are not alone in this journey, and there are resources available to help you. Take care of yourself and embrace the opportunities that college has to offer while managing stress effectively.</div>
             </section>
 
           </div>

@@ -60,7 +60,7 @@ const Blogs = () => {
               <div>
                 <img src="/Images/blog7.jpg" alt="blog7" className="w-[300px] h-[180px] sm:w-[500px] sm:h-[300px] rounded-xl"/>
               </div>
-              <div className="font-bold text-sm sm:text-base text-center sm:w-[500px]">Managing Stress in College: Essential Tips for Students' Mental Health</div>
+              <div className="font-bold text-sm sm:text-base text-center sm:w-[500px]">Managing Stress in College: Essential Tips for Students&apos; Mental Health</div>
             </Link>
 
             <Link href='./blogs/Self-Care-Practices-for-Mental-Health-and-Brain-Optimization' className="flex flex-col gap-4 items-center pt-0 mt-0">

@@ -27,11 +27,11 @@ const page = () => {
           </div>
           <div className="flex flex-col flex-[60%] gap-5 pr-0 sm:pr-16 ">
             <section>
-              <div>In the intricate tapestry of a school environment, peer relationships play a pivotal role in shaping students' experiences and well-being. As navigators of students' emotional development, school counselors have a unique opportunity to foster positive peer interactions and impart essential social skills. By equipping students with the tools to navigate friendships and collaborate effectively, counselors contribute not only to their immediate happiness but also to their lifelong success.</div>
+              <div>In the intricate tapestry of a school environment, peer relationships play a pivotal role in shaping students&apos; experiences and well-being. As navigators of students&apos; emotional development, school counselors have a unique opportunity to foster positive peer interactions and impart essential social skills. By equipping students with the tools to navigate friendships and collaborate effectively, counselors contribute not only to their immediate happiness but also to their lifelong success.</div>
             </section>
             <section id="section1">
               <div className="text-base font-bold text-r-blue">The Significance of Positive Peer Relationships</div>
-              <div>Positive peer relationships have far-reaching effects on students' lives. Let's explore three key areas where these relationships have a significant impact:<br/>
+              <div>Positive peer relationships have far-reaching effects on students&apos; lives. Let&apos;s explore three key areas where these relationships have a significant impact:<br/>
                 <span className="font-bold text-r-blue">Emotional Well-Being</span> <br />
                 Healthy friendships provide emotional support, reducing feelings of isolation and promoting a sense of belonging. Students who have positive peer relationships are more likely to have higher self-esteem, lower levels of stress, and better overall mental health. They have a support system that helps them cope with challenges and navigate the ups and downs of adolescence.<br/>
                 <span className="font-bold text-r-blue">Social Development</span> <br/>
@@ -44,14 +44,14 @@ const page = () => {
             </section>
             <section id="section2">
               <div className="text-base font-bold text-r-blue">Strategies for Parents and Educators</div>
-              <div>As educators and parents, there are various strategies you can employ to promote positive peer relationships and nurture students' social skills. Here are some effective approaches:<br/>
+              <div>As educators and parents, there are various strategies you can employ to promote positive peer relationships and nurture students&apos; social skills. Here are some effective approaches:<br/>
                 <span className="font-bold text-r-blue">Encourage Self-Awareness</span> <br />
                 <div>Help students understand their own strengths and weaknesses. This self-awareness lays the foundation for healthy relationships.</div>
                 <div>Guide them in identifying their emotions and expressing themselves effectively. This helps students communicate their needs and understand the emotions of their peers.</div>
                 <span className="font-bold text-r-blue">Teach Active Listening</span> <br/>
                 Instruct students on the art of active listening, which involves giving their full attention, understanding, and responding thoughtfully. Active listening enhances empathy and deepens connections with peers.<br />
                 <span className="font-bold text-r-blue">Foster Empathy</span> <br />
-                Engage in activities that help students see situations from others' perspectives. This cultivates empathy and a better understanding of their peers' feelings.<br/>
+                Engage in activities that help students see situations from others&apos; perspectives. This cultivates empathy and a better understanding of their peers&apos; feelings.<br/>
                 <span className="font-bold text-r-blue">Role-Play Social Scenarios</span> <br />
                 Create scenarios that mirror real-life social situations, encouraging students to practice communication, conflict resolution, and problem-solving. This hands-on approach allows them to develop and refine their social skills.<br/>
                 <span className="font-bold text-r-blue">Address Bullying and Conflict Resolution</span> <br />
@@ -59,16 +59,16 @@ const page = () => {
                 <span className="font-bold text-r-blue">Emphasize Inclusivity</span> <br />
                 Encourage students to be inclusive and welcoming to all peers, regardless of differences. Discuss the importance of embracing diversity and fostering an inclusive school community.<br/>
                 <span className="font-bold text-r-blue">Collaborate on Group Projects</span> <br />
-                Assign group projects that encourage collaboration and teamwork. Counsel students on effective group communication and respecting diverse viewpoints. This collaboration fosters positive peer relationships and enhances students' ability to work together effectively.<br/>
+                Assign group projects that encourage collaboration and teamwork. Counsel students on effective group communication and respecting diverse viewpoints. This collaboration fosters positive peer relationships and enhances students&apos; ability to work together effectively.<br/>
                 <span className="font-bold text-r-blue">Organize Social Skills Workshops</span> <br />
                 Host workshops that cover topics like making new friends, starting conversations, and building and maintaining relationships. These workshops provide students with practical skills and strategies for navigating social interactions.<br/>
                 
                 <span className="font-bold text-r-blue">Practice Digital Etiquette</span> <br/>
                 Discuss online interactions and etiquette, emphasizing responsible and respectful behavior in digital spaces. This includes addressing cyberbullying and promoting positive online communication.<br />
                 <span className="font-bold text-r-blue">Model Positive Behavior</span> <br />
-                School counselors can model the behavior they're promoting by engaging in active listening, empathy, and respectful communication during their interactions with students. Students learn by example, and seeing positive behavior in action can reinforce the importance of these skills.<br/>
+                School counselors can model the behavior they&apos;re promoting by engaging in active listening, empathy, and respectful communication during their interactions with students. Students learn by example, and seeing positive behavior in action can reinforce the importance of these skills.<br/>
                 <span className="font-bold text-r-blue">Develop Conflict Resolution Techniques</span> <br />
-                Teach students constructive ways to resolve conflicts, such as using "I" statements, finding common ground, and compromising. These techniques empower students to handle conflicts in a peaceful and respectful manner.<br/>
+                Teach students constructive ways to resolve conflicts, such as using &quot;I&quot; statements, finding common ground, and compromising. These techniques empower students to handle conflicts in a peaceful and respectful manner.<br/>
                 <span className="font-bold text-r-blue">Utilize Peer Mediation Programs</span> <br />
                 Implement peer mediation programs where trained students act as mediators in conflicts, promoting peaceful resolution. Peer mediation empowers students to take an active role in resolving conflicts and fosters a sense of responsibility and leadership.<br/>
                 <span className="font-bold text-r-blue">Cultivate a Safe Space</span> <br />

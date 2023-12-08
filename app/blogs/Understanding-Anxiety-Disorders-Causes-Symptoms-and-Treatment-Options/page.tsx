@@ -28,11 +28,11 @@ const page = () => {
           </div>
           <div className="flex flex-col flex-[60%] gap-5 pr-0 sm:pr-16 ">
             <section>
-              <div>Anxiety is a common human experience that serves as our body's natural reaction to stress and potential threats. However, for some individuals, anxiety can become overwhelming and interfere with their daily lives. Anxiety disorders affect nearly 1 in 5 American adults each year, making it crucial to understand the causes, symptoms, and treatment options available.</div>
+              <div>Anxiety is a common human experience that serves as our body&apos;s natural reaction to stress and potential threats. However, for some individuals, anxiety can become overwhelming and interfere with their daily lives. Anxiety disorders affect nearly 1 in 5 American adults each year, making it crucial to understand the causes, symptoms, and treatment options available.</div>
             </section>
             <section id="section1">
               <div className="text-base font-bold text-r-blue">What is Anxiety?</div>
-              <div>Anxiety is our body's normal reaction to stress. When faced with potential danger, our bodies respond by triggering a fear response. This response is essential for our survival and helps us react appropriately in dangerous situations. Anxiety and fear are closely related emotions, with fear being a response to an immediate threat, while anxiety is the anticipation of a future threat.
+              <div>Anxiety is our body&apos;s normal reaction to stress. When faced with potential danger, our bodies respond by triggering a fear response. This response is essential for our survival and helps us react appropriately in dangerous situations. Anxiety and fear are closely related emotions, with fear being a response to an immediate threat, while anxiety is the anticipation of a future threat.
               </div>
               <br/>
               <div>For example, feeling anxious before starting a new job, waiting for test results, or driving in bad weather are normal reactions to our emotions. However, when anxiety becomes excessive or persistent, it may indicate the need for professional help. Anxiety disorders can manifest in various forms, each with its unique set of symptoms and challenges.</div>
@@ -60,7 +60,7 @@ const page = () => {
             </section>
             <section id="section3">
               <div className="text-base font-bold text-r-blue">What Causes Anxiety Disorders?</div>
-              <div>The exact causes of anxiety disorders are not fully understood. However, research suggests that a combination of genetic, environmental, and neurochemical factors contributes to an individual's risk of developing an anxiety disorder. Family history of anxiety or other mental illnesses, exposure to stressful events, and certain physical conditions can also increase the likelihood of developing an anxiety disorder.
+              <div>The exact causes of anxiety disorders are not fully understood. However, research suggests that a combination of genetic, environmental, and neurochemical factors contributes to an individual&apos;s risk of developing an anxiety disorder. Family history of anxiety or other mental illnesses, exposure to stressful events, and certain physical conditions can also increase the likelihood of developing an anxiety disorder.
               </div>
             </section>
             <section id="section4">
@@ -74,7 +74,7 @@ const page = () => {
                 <li>Interpersonal therapy (IPT): IPT focuses on understanding and addressing underlying interpersonal issues to improve emotional well-being.</li>
 
                 <span className="font-bold text-r-blue">Medication Options</span> <br/>
-                Medication can be used to alleviate anxiety symptoms, particularly in conjunction with therapy. Antidepressant medications, such as selective serotonin reuptake inhibitors (SSRIs), are commonly prescribed to reduce anxiety symptoms and manage co-occurring depression. It's important to work closely with a healthcare provider to determine the most appropriate medication and dosage for your specific needs.<br />
+                Medication can be used to alleviate anxiety symptoms, particularly in conjunction with therapy. Antidepressant medications, such as selective serotonin reuptake inhibitors (SSRIs), are commonly prescribed to reduce anxiety symptoms and manage co-occurring depression. It&apos;s important to work closely with a healthcare provider to determine the most appropriate medication and dosage for your specific needs.<br />
                 <span className="font-bold text-r-blue">Stress Management Techniques</span> <br />
                 In addition to therapy and medication, stress management techniques can be helpful in reducing anxiety symptoms. Practices such as meditation, deep breathing exercises, regular physical exercise, maintaining a healthy sleep routine, and limiting caffeine intake can all contribute to overall stress reduction.
               </div>
@@ -82,10 +82,10 @@ const page = () => {
 
             <section id="section5">
                 <div className="text-base font-bold text-r-blue">The Road to Recovery</div>
-                <div>Anxiety disorders can significantly impact an individual's quality of life, but they are highly treatable. Seeking help from a healthcare professional is the first step toward recovery. Remember, you are not alone, and there are effective treatment options available. With the right care and support, individuals with anxiety disorders can lead fulfilling and successful lives.
+                <div>Anxiety disorders can significantly impact an individual&apos;s quality of life, but they are highly treatable. Seeking help from a healthcare professional is the first step toward recovery. Remember, you are not alone, and there are effective treatment options available. With the right care and support, individuals with anxiety disorders can lead fulfilling and successful lives.
                 </div>
                 <br/>
-                <div>If you or someone you know is struggling with anxiety, reach out to a healthcare provider or mental health facility to find the care that's right for you. Remember, anxiety disorders are common, and there is no shame in seeking help. Together, we can overcome anxiety and achieve mental well-being.</div>
+                <div>If you or someone you know is struggling with anxiety, reach out to a healthcare provider or mental health facility to find the care that&apos;s right for you. Remember, anxiety disorders are common, and there is no shame in seeking help. Together, we can overcome anxiety and achieve mental well-being.</div>
             </section>
             
             

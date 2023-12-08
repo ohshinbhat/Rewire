@@ -29,7 +29,7 @@ const page = () => {
           </div>
           <div className="flex flex-col flex-[60%] gap-5 pr-0 sm:pr-16 ">
             <section>
-              <div>Play is an essential aspect of childhood that has significant impacts on brain development. It is estimated that children spend between 3% and 20% of their day engaged in play activities, demonstrating the natural inclination to play. Research has shown that play is not only enjoyable but also vital for a child's ability to learn and develop various cognitive and social skills. In this article, we will explore the concept of play, its effects on brain development, and the importance of unstructured free play for optimal growth.
+              <div>Play is an essential aspect of childhood that has significant impacts on brain development. It is estimated that children spend between 3% and 20% of their day engaged in play activities, demonstrating the natural inclination to play. Research has shown that play is not only enjoyable but also vital for a child&apos;s ability to learn and develop various cognitive and social skills. In this article, we will explore the concept of play, its effects on brain development, and the importance of unstructured free play for optimal growth.
               </div>
             </section>
             <section id="section1">
@@ -43,7 +43,7 @@ const page = () => {
               <div>Not all play is created equal when it comes to brain development. Researchers emphasize the significance of unstructured and free play for optimal cognitive and social growth. Free play refers to play activities that are not guided by coaches, umpires, or rule books. It allows children to negotiate and create their own games, rules, and social interactions.
               </div>
               <br/>
-              <div>The prefrontal cortex, the brain's executive control center responsible for regulating emotions, making plans, and problem-solving, is particularly affected by play. Play initiates lasting changes in the prefrontal cortex, resulting in a bigger and faster brain. Sergio Pellis, a researcher at the University of Lethbridge, explains that play experience changes the connections of neurons in the prefrontal cortex, contributing to healthy brain development.</div>
+              <div>The prefrontal cortex, the brain&apos;s executive control center responsible for regulating emotions, making plans, and problem-solving, is particularly affected by play. Play initiates lasting changes in the prefrontal cortex, resulting in a bigger and faster brain. Sergio Pellis, a researcher at the University of Lethbridge, explains that play experience changes the connections of neurons in the prefrontal cortex, contributing to healthy brain development.</div>
             </section>
             <section id="section3">
               <div className="text-base font-bold text-r-blue">The Importance of Free-Play</div>
@@ -54,10 +54,10 @@ const page = () => {
             </section>
             <section id="section4">
               <div className="text-base font-bold text-r-blue">Play Matters to Learning</div>
-              <div>The impact of play extends beyond brain development; it also enhances children's academic performance. Research by Jaak Panksepp indicates that play is remarkably similar across species, including rats, monkeys, and children. They all follow similar social rules during play, which contributes to the development of social skills and social adeptness.
+              <div>The impact of play extends beyond brain development; it also enhances children&apos;s academic performance. Research by Jaak Panksepp indicates that play is remarkably similar across species, including rats, monkeys, and children. They all follow similar social rules during play, which contributes to the development of social skills and social adeptness.
               </div>
               <br/>
-              <div>Increased playtime has been linked to improved academic achievement. In fact, one study found that a child's social skills in the third grade were one of the best predictors of academic success in the eighth grade. Play increases the size of the prefrontal cortex, leading to better problem-solving abilities, emotional regulation, and social interactions.</div>
+              <div>Increased playtime has been linked to improved academic achievement. In fact, one study found that a child&apos;s social skills in the third grade were one of the best predictors of academic success in the eighth grade. Play increases the size of the prefrontal cortex, leading to better problem-solving abilities, emotional regulation, and social interactions.</div>
               <br/>
               <div>Countries that prioritize play in their education systems, such as Sweden, Finland, China, and Japan, have achieved higher academic performance. These countries incorporate play into their school days, whether through short breaks or extended play sessions. The correlation between play and academic success further emphasizes the importance of play for holistic child development.</div>
             </section>

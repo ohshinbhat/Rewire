@@ -30,11 +30,11 @@ const page = () => {
           </div>
           <div className="flex flex-col flex-[60%] gap-5 pr-0 sm:pr-16 ">
             <section>
-              <div>In our fast-paced world, where stress and mental health issues are on the rise, it's essential to explore all possible avenues for improving our well-being. While we often focus on therapies and medications, there is a growing field of research that suggests nutrition plays a crucial role in mental health. In this article, we will delve into the connection between nutrition and brain function, uncover brain-friendly foods, and explore how nutrients can support our mental well-being.</div>
+              <div>In our fast-paced world, where stress and mental health issues are on the rise, it&apos;s essential to explore all possible avenues for improving our well-being. While we often focus on therapies and medications, there is a growing field of research that suggests nutrition plays a crucial role in mental health. In this article, we will delve into the connection between nutrition and brain function, uncover brain-friendly foods, and explore how nutrients can support our mental well-being.</div>
             </section>
             <section id="section1">
               <div className="text-base font-bold text-r-blue">Understanding the Link Between Nutrition and Mental Well-Being</div>
-              <div>The saying "you are what you eat" holds true when it comes to the impact of food on our mental health. Numerous studies and observational literature have highlighted the connection between diet and overall well-being. While it's important to note that mental illness has multiple causes and triggers, including genetics and environment, the food we consume can significantly affect our mental well-being.
+              <div>The saying &quot;you are what you eat&quot; holds true when it comes to the impact of food on our mental health. Numerous studies and observational literature have highlighted the connection between diet and overall well-being. While it&apos;s important to note that mental illness has multiple causes and triggers, including genetics and environment, the food we consume can significantly affect our mental well-being.
               </div> <br/>
               <div>Our brain, like any other organ in our body, relies on the nutrients we provide it. The right foods can fuel our brain, enhance its function, and improve our mood and cognitive abilities. Conversely, a poor diet can leave us feeling lethargic, moody, and may even worsen mental health symptoms.
               </div>
@@ -56,7 +56,7 @@ const page = () => {
               <div>Probiotics, often associated with gut health, also play a role in mental well-being. The gut-brain connection is a fascinating area of research, and studies have shown that probiotics can improve the balance of gut bacteria, leading to positive effects on mental health.</div>            </section>
             <section id="section4">
               <div className="text-base font-bold text-r-blue">Brain-Friendly Foods for Optimal Mental Well-Being</div>
-              <div>To support our brain health and overall mental well-being, it's important to include brain-friendly foods in our diet. These foods are rich in key nutrients that nourish the brain and promote optimal function. Here are some examples:<br/>
+              <div>To support our brain health and overall mental well-being, it&apos;s important to include brain-friendly foods in our diet. These foods are rich in key nutrients that nourish the brain and promote optimal function. Here are some examples:<br/>
                 <span className="font-bold text-r-blue">Water</span> <br />
                 While not technically a food, water is one of the most important resources for our body and both our physical and mental well being. Drinking adequate amounts of water every day helps your body’s functions stay healthy. <br/>
                 <span className="font-bold text-r-blue">Leafy Green Vegetables</span> <br/>
@@ -70,7 +70,7 @@ const page = () => {
                 <span className="font-bold text-r-blue">Nuts</span> <br />
                 Nuts are not only a great source of healthy fats but also contain omega-3 fatty acids that support brain health. Additionally, they provide essential nutrients and antioxidants that contribute to improved memory and cognitive function.<br/>
                 <span className="font-bold text-r-blue">Turmeric</span> <br />
-                Turmeric, a spice commonly used in Indian cuisine, contains an active compound called curcumin. Curcumin has potent anti-inflammatory and antioxidant properties, which have been shown to benefit the brain. Research suggests that turmeric may help reduce symptoms of depression and Alzheimer's disease.<br/>
+                Turmeric, a spice commonly used in Indian cuisine, contains an active compound called curcumin. Curcumin has potent anti-inflammatory and antioxidant properties, which have been shown to benefit the brain. Research suggests that turmeric may help reduce symptoms of depression and Alzheimer&apos;s disease.<br/>
                 <span className="font-bold text-r-blue">Dark Chocolate</span> <br />
                 Dark chocolate and cocoa powder are packed with brain-boosting compounds, including flavonoids, caffeine, and antioxidants. These compounds have been associated with improved cognitive function and mood.<br/>
                 By incorporating these brain-friendly foods into our diet, we can nourish our brains in a positive way and support our mental well-being.
@@ -79,16 +79,16 @@ const page = () => {
             </section>
             <section id="section5">
               <div className="text-base font-bold text-r-blue">Debunking Food Myths for Mental Health</div>
-              <div>In today's information age, it's easy to get overwhelmed by conflicting advice on nutrition and mental health. Many products and diet programs claim to be "superfoods" or "brain foods." However, it's essential to approach these claims with caution and rely on evidence-based information.</div>
+              <div>In today&apos;s information age, it&apos;s easy to get overwhelmed by conflicting advice on nutrition and mental health. Many products and diet programs claim to be &quot;superfoods&quot; or &quot;brain foods.&quot; However, it&apos;s essential to approach these claims with caution and rely on evidence-based information.</div>
               <br/>
               <div>To get the most out of our diet, we should focus on incorporating a variety of foods, prioritizing unprocessed foods and avoiding refined sugars. A colorful array of fruits and vegetables should be at the center of our meals, providing essential vitamins, minerals, and antioxidants.</div>
               <br/>
-              <div>It's important to enjoy and savor our food, as the pleasure we derive from eating can positively impact our mental well-being. Conversely, a diet high in processed foods and refined sugars can impair brain function and worsen mental health symptoms.</div>
+              <div>It&apos;s important to enjoy and savor our food, as the pleasure we derive from eating can positively impact our mental well-being. Conversely, a diet high in processed foods and refined sugars can impair brain function and worsen mental health symptoms.</div>
       
             </section>
             <section id="section6">
                 <div className="text-base font-bold text-r-blue">Conclusion</div>
-                <div>In conclusion, nutrition plays a vital role in our mental health and brain function. By adopting a brain-friendly diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats, we can nourish our brains and support our overall well-being. It's important to remember that while nutrition is an essential component of mental health, it should be approached alongside other evidence-based treatments and therapies. By taking care of our bodies and minds through proper nutrition, we can pave the way for a healthier and happier life.
+                <div>In conclusion, nutrition plays a vital role in our mental health and brain function. By adopting a brain-friendly diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats, we can nourish our brains and support our overall well-being. It&apos;s important to remember that while nutrition is an essential component of mental health, it should be approached alongside other evidence-based treatments and therapies. By taking care of our bodies and minds through proper nutrition, we can pave the way for a healthier and happier life.
                     
                 </div>
             </section>
