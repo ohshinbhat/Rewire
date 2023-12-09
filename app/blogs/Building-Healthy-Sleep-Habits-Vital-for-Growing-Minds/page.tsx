@@ -47,7 +47,7 @@ const page = () => {
               <div className="text-base font-bold text-r-blue">Key Sleep Strategies for Children</div>
               <div>To establish healthy sleep habits in children, it is important to consider several key strategies. These strategies encompass sleep duration, naps, sleep quality, recognizing signs of drowsiness, establishing consistent bedtime and wake-up routines, and effective communication among caregivers. By implementing these strategies, parents can create a supportive sleep environment and promote healthy sleep patterns in their children.<br/>
                 <span className="font-bold text-r-blue">Sleep Duration</span> <br />
-                <div>Sleep duration refers to the total amount of sleep a child needs based on their age. The following table outlines the recommended sleep durations for different age groups:</div>
+                <div>Sleep duration refers to the total amount of sleep a child needs based on their age. The following table outlines the recommended sleep durations for different age groups:</div><br/>
                 <div>
                     <table>
                         <tr>
@@ -71,7 +71,8 @@ const page = () => {
                             <td className="border-2 border-slate-400">10 to 11 hours</td>
                         </tr>
                     </table>
-                </div>
+                </div> 
+                <br/>
                 <div>It is important for parents to ensure that their child is getting enough sleep based on their age. Adequate sleep duration supports physical growth, cognitive development, and emotional well-being in children.</div>
                 <span className="font-bold text-r-blue">Naps</span> <br/>
                 <div>Naps are an important component of a child&apos;s sleep routine, especially during infancy and early childhood. Napping allows children to recharge and maintain optimal daytime functioning. The number and duration of naps can vary depending on the child&apos;s age:</div>
