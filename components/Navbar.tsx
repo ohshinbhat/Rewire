@@ -23,7 +23,7 @@ const Navbar = () => {
                         <span className="block h-0.5 w-8 animate-pulse bg-r-blue"></span>
                         <span className="block h-0.5 w-8 animate-pulse bg-r-blue"></span>
 
-                </div>
+                    </div>
                 <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                     <div className="absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen(false)}>
                         <svg
