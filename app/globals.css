@@ -5,6 +5,7 @@
 
 html{
   font-family: 'Poppins', sans-serif;
+  max-width: 100%;
 }
 .accordion{
   padding: 0px 200px;
